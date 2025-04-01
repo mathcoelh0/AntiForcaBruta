@@ -1,29 +1,24 @@
+# 🛡️ Proteção Contra Ataques de Força Bruta
 
-Para executar o projeto:
+> Sistema de proteção contra ataques de força bruta em APIs de login, desenvolvido com Python e Flask.
 
-1. Instale as dependências:
-```bash
-pip install -r requirements.txt# Proteção Contra Ataques de Força Bruta
+## ✨ Funcionalidades
 
-Sistema de proteção contra ataques de força bruta em APIs de login, desenvolvido com Python e Flask.
+- 🔒 Limite de tentativas de login por IP
+- ⏳ Bloqueio temporário após múltiplas tentativas falhas
+- 📝 Registro de tentativas em banco de dados SQLite
+- ⚡ Sistema de rate limiting
+- 🌐 API REST para autenticação
 
-## Funcionalidades
-
-- Limite de tentativas de login por IP
-- Bloqueio temporário após múltiplas tentativas falhas
-- Registro de tentativas em banco de dados SQLite
-- Sistema de rate limiting
-- API REST para autenticação
-
-## Requisitos
+## 📋 Requisitos
 
 - Python 3.8+
 - Flask
 - Flask-Limiter
 - Flask-SQLAlchemy
 
-## Instalação
+## 🚀 Instalação
 
 1. Clone o repositório:
 ```bash
-git clone [seu-repositorio]
+git clone https://github.com/mathcoelh0/AntiForcaBruta.git
